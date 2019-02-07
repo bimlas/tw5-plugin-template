@@ -1,0 +1,51 @@
+:demo-page: https://me.gitlab.io/tw5-myplugin
+:json: https://me.gitlab.io/tw5-myplugin/tw5-myplugin.json
+
+= Plugin template repository for TiddlyWiki 5
+
+A kickstart for your plugin development. Just fork this repository (*works
+only on GitLab*) and change the contents to your needs.
+
+Template starts here:
+
+'''
+
+= MyPlugin plugin for TiddlyWiki 5
+
+For details, see the link:{demo-page}[demo page].
+
+== How to install?
+
+=== Drag-n-drop
+
+- Open the link:{demo-page}[demo page]
+- Drag-n-drop the plugin tiddler in to your wiki
+
+=== Download as JSON
+
+- Download the link:{json}[JSON archive of the plugin] (_File -> Save as_ when
+  loaded)
+- Drag-n-drop the file in to your wiki
+
+=== Copy to directory based (Node.js) wiki
+
+- Clone or download this repository
+- Copy the `plugins` directory to the root directory of your wiki
+
+== Development
+
+=== Running tests
+
+*Before running tests, be sure that `plugins` section in `test/tiddlywiki.info`
+contains the directory name of your plugin!*
+
+----
+$ cd ROOT_OF_THIS_REPO
+
+# Unix-like system
+$ export TIDDLYWIKI_PLUGIN_PATH=./plugins
+# Windows
+$ set TIDDLYWIKI_PLUGIN_PATH=./plugins
+
+$ tiddlywiki test
+----

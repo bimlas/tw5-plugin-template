@@ -1,0 +1,10 @@
+{
+	"title": "$:/plugins/me/myplugin",
+	"description": "My awesome plugin",
+	"author": "me",
+	"version": "1.0.0",
+	"core-version": ">=5.1.18",
+	"source": "https://gitlab.com/me/tw5-myplugin",
+	"plugin-type": "plugin",
+	"list": "README/README README/examples"
+}
