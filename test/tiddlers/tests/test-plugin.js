@@ -3,7 +3,7 @@ title: test-filters.js
 type: application/javascript
 tags: [[$:/tags/test-spec]]
 
-Tests the filtering mechanism.
+Plugin tests
 
 \*/
 (function(){

@@ -1,2 +1,4 @@
-**/$__StoryList.tid
+/package*.json
+/node_modules
 output/
+$__StoryList.tid
