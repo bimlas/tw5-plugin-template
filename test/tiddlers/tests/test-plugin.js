@@ -1,5 +1,5 @@
 /*\
-title: test-filters.js
+title: test-plugin.js
 type: application/javascript
 tags: [[$:/tags/test-spec]]
 
