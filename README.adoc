@@ -3,6 +3,8 @@
 
 = Plugin template repository for TiddlyWiki 5
 
+*UNDER DEVELOPENT: THE TEMPLATE IS NOT COMPLETE, DO NOT USE IT*
+
 A kickstart for your plugin development. Just fork this repository (*works
 only on GitLab*) and change the contents to your needs.
 
