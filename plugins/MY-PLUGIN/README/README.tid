@@ -2,4 +2,17 @@ tags:
 title: $:/plugins/MY-USER/MY-PLUGIN/README/README
 type: text/vnd.tiddlywiki
 
-Configuration for the plugin can be done from within the MY-PLUGIN tab in the [[ControlPanel|$:/ControlPanel]].
+! MY-PLUGIN
+
+* https://gitlab.com/...
+* https://github.com/...
+
+!! Installation instructions
+
+To add the plugin to your own ~TiddlyWiki5, just drag this link to the browser window:
+
+$:/plugins/MY-USER/MY-PLUGIN
+
+For other installation options see the repositories above.
+
+//Select the next tab to continue.//
