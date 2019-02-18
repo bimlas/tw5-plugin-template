@@ -3,4 +3,11 @@ title: $:/plugins/MY-USER/MY-PLUGIN/settings/settings
 type: text/vnd.tiddlywiki
 caption: MY-PLUGIN
 
-|[[Website|$:/config/MY-USER/MY-PLUGIN/settings/website]]<blockquote>Example website</blockquote> |<$edit-text tiddler="$:/config/MY-USER/MY-PLUGIN/settings/website" default="" tag="input"/> |
+<$list filter="[[$:/ControlPanel]!is[current]]">
+    Configuration for the plugin can be done from within the MY-PLUGIN tab in the [[ControlPanel|$:/ControlPanel]] as well.
+</$list>
+<$list filter="[[$:/ControlPanel]is[current]]">
+    Configuration for the [[MY-PLUGIN plugin|$:/plugins/MY-USER/MY-PLUGIN]].
+</$list>
+
+|[[Website|$:/config/MY-USER/MY-PLUGIN/settings/website]]<blockquote>Example website</blockquote> |<$edit-text tiddler="$:/config/MY-USER/MY-PLUGIN/settings/website" default="" tag="input"/><br/>//For example https://example.com/ // |
