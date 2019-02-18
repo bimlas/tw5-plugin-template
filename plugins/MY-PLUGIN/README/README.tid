@@ -1,0 +1,5 @@
+tags:
+title: $:/plugins/MY-USER/MY-PLUGIN/README/README
+type: text/vnd.tiddlywiki
+
+Configuration for the plugin can be done from within the MY-PLUGIN tab in the [[ControlPanel|$:/ControlPanel]].

@@ -1,0 +1,6 @@
+tags: $:/tags/ControlPanel
+title: $:/plugins/MY-USER/MY-PLUGIN/settings/settings
+type: text/vnd.tiddlywiki
+caption: MY-PLUGIN
+
+|[[Website|$:/config/MY-USER/MY-PLUGIN/settings/website]]<blockquote>Example website</blockquote> |<$edit-text tiddler="$:/config/MY-USER/MY-PLUGIN/settings/website" default="" tag="input"/> |
