@@ -1,22 +1,22 @@
-:demo-page: https://MY-USER.gitlab.io/tw5-MY-PLUGIN/
-:json: https://MY-USER.gitlab.io/tw5-MY-PLUGIN/tw5-MY-PLUGIN.json
+:demo-page: https://MY-USER.github.io/tw5-MY-PLUGIN/
+:json: https://MY-USER.github.io/tw5-MY-PLUGIN/tw5-MY-PLUGIN.json
 
 = Plugin template repository for TiddlyWiki 5
 
 *UNDER DEVELOPENT: THE TEMPLATE IS NOT COMPLETE, DO NOT USE IT*
 
-A kickstart for your plugin development. Just fork this repository (*works
-only on GitLab*) and change the contents to your needs.
+A kickstart for your plugin development. Just fork this repository and change
+the contents to your needs.
 
 === Search for these strings to replace
 
 MY-USER::
-Your GitLab user name (https://gitlab.com/MY-USER/), same as your "TiddlyWiki
+Your GitHub user name (https://github.com/MY-USER/), same as your "TiddlyWiki
 username" (`$:/plugins/MY-USER/MY-PLUGIN`).
 
 MY-PLUGIN::
 Name of the plugin, it's the same as the repository name without `tw5-` prefix
-(https://gitlab.com/MY-USER/tw5-MY-PLUGIN/).
+(https://github.com/MY-USER/tw5-MY-PLUGIN/).
 
 === Files of the plugin
 
@@ -34,7 +34,7 @@ Test files.
 
 For details, see the link:{demo-page}[demo page].
 
-* https://gitlab.com/MY-USER/tw5-MY-PLUGIN/ (official repository)
+* https://github.com/MY-USER/tw5-MY-PLUGIN/ (please star if you like the plugin)
 
 == How to install?
 

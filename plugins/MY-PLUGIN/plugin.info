@@ -1,10 +1,10 @@
 {
-	"title": "$:/plugins/me/myplugin",
+	"title": "$:/plugins/MY-USER/MY-PLUGIN",
 	"description": "My awesome plugin",
-	"author": "me",
+	"author": "MY-USER",
 	"version": "1.0.0",
-	"core-version": ">=5.1.18",
-	"source": "https://gitlab.com/me/tw5-myplugin",
+	"core-version": ">=5.3.3",
+	"source": "https://github.com/MY-USER/tw5-MY-PLUGIN",
 	"plugin-type": "plugin",
 	"list": "README/README README/examples settings/settings"
 }
