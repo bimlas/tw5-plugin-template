@@ -2,7 +2,7 @@
 	"description": "Plugin tests",
 	"plugins": [
 		"tiddlywiki/jasmine",
-		"myplugin"
+		"MY-PLUGIN"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",

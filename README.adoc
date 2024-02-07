@@ -55,18 +55,31 @@ For details, see the link:{demo-page}[demo page].
 
 == Development
 
-=== Running tests
+Start by installing dependencies:
+
+----
+$ npm ci
+----
+
+Build demo HTML and plugin JSON files:
+
+----
+$ npm run build
+----
+
+Running tests:
 
 *Before running tests, be sure that `plugins` section in `test/tiddlywiki.info`
 contains the directory name of your plugin!*
 
 ----
-$ cd ROOT_OF_THIS_REPO
+$ npm run test
+----
 
-# Unix-like system
-$ export TIDDLYWIKI_PLUGIN_PATH=./plugins
-# Windows
-$ set TIDDLYWIKI_PLUGIN_PATH=./plugins
+Try out with the official wiki: it will import the tiddlers of
+https://tiddlywiki.com/ to a local Node server and add the plugin so you can
+try out on http://localhost:8888
 
-$ tiddlywiki test
+----
+$ npm run wiki
 ----

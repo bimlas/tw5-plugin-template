@@ -4,7 +4,9 @@
   "scripts": {
     "build": "npm run build:html; npm run build:json",
     "build:html": "TIDDLYWIKI_PLUGIN_PATH=plugins tiddlywiki --build index",
-    "build:json": "TIDDLYWIKI_PLUGIN_PATH=plugins tiddlywiki --render '$:/plugins/MY-USER/MY-PLUGIN' tw5-MY-PLUGIN.json text/plain '$:/core/templates/json-tiddler'"
+    "build:json": "TIDDLYWIKI_PLUGIN_PATH=plugins tiddlywiki --render '$:/plugins/MY-USER/MY-PLUGIN' tw5-MY-PLUGIN.json text/plain '$:/core/templates/json-tiddler'",
+    "test": "TIDDLYWIKI_PLUGIN_PATH=plugins tiddlywiki test --test",
+    "wiki": "npm run build:json; tiddlywiki NONE --fetch file 'https://tiddlywiki.com/' '' '' --load output/tw5-MY-PLUGIN.json --listen port=8888"
   },
   "dependencies": {
     "tiddlywiki": "^5.3.3"
