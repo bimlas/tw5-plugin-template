@@ -69,9 +69,6 @@ $ npm run build
 
 Running tests:
 
-*Before running tests, be sure that `plugins` section in `test/tiddlywiki.info`
-contains the directory name of your plugin!*
-
 ----
 $ npm run test
 ----
